@@ -1,0 +1,171 @@
+.container{
+  width: 800px;
+  height: 100%;
+  margin: 10px auto;
+  background-color:cornflowerblue;
+  background-image: linear-gradient(to right,blue);
+  
+} 
+
+.main-img{
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-top: -180px;
+}
+
+.main{
+  width: 300px;
+  height: 200px;
+}
+
+.main button{
+  margin-left: 80px;
+}
+
+.main-title{
+  width: 300px;
+  margin-left: 80px;
+  padding-top: 40px;
+  color: white;
+}
+
+.main-text{
+  color: white;
+  font-size: 10px;
+  margin-left: 80px;
+
+}
+
+.middle{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: white;
+}
+
+.middle h4{
+  padding-top: 20px;
+}
+
+.middle p{
+  color: black;
+  margin-top: -10px;
+}
+
+.bottom{
+  background-color: cornflowerblue;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bottom-text{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.bottom div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.bottom h4, p{
+  color: white;
+}
+
+.bottom i {
+  background: white;
+  width: 80px;
+  height: 80px;
+  padding-top: 25px;
+  border-radius: 50px;
+  color: cornflowerblue;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+button{
+  border: none;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin: 10px auto;
+  display: block;
+}
+
+.footter{
+  background-color: white;
+  width: 800px;
+  
+}
+
+.footter div img{
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+
+.img-text1{
+  position: absolute;
+}
+.img-text2{
+  padding-left: 300px;
+  position: absolute;
+}
+.img-text3{
+  padding-top: 200px;
+  position: absolute;
+}  
+.img-text4{
+  padding-left: 300px;
+  padding-top: 200px;
+  padding-right: 100px;
+  position: absolute;
+}
+
+.footter div{
+  margin-left: 100px;
+}
+
+.footter-text{
+  margin-right: 100px;
+  text-align: center;
+}
+
+.footter-text p{
+ color: gray;
+}
+
+
+.icon div{
+  float: left;
+  width: 5%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.footter i {
+  background: cornflowerblue;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 150px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+
+.last-text p{
+  color: gray;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px ;
+  text-align: center;
+}
