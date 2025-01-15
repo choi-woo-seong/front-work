@@ -3,8 +3,7 @@
   height: 100%;
   margin: 10px auto;
   background-color:cornflowerblue;
-  background-image: linear-gradient(to right,blue);
-  
+  background-image: linear-gradient(skyblue,darkslateblue);
 } 
 
 .main-img{
@@ -54,7 +53,6 @@
 }
 
 .bottom{
-  background-color: cornflowerblue;
   width: 80%;
   max-width: 1000px;
   margin: auto;
@@ -90,10 +88,14 @@
 button{
   border: none;
   height: 40px;
-  background-color: black;
+  background-color:darkgray;
   color: white;
   margin: 10px auto;
   display: block;
+}
+
+button:hover{
+  background-color: gray;
 }
 
 .footter{
@@ -109,22 +111,33 @@ button{
   position: relative;
 }
 
+.footter div img:hover{
+  transform: scale(0.9);
+}
+
 .img-text1{
   position: absolute;
+  padding-left: 30px;
+  margin-top: 50px;
 }
 .img-text2{
   padding-left: 300px;
   position: absolute;
+  margin-top: 50px;
+  padding-left: 330px;
 }
 .img-text3{
   padding-top: 200px;
   position: absolute;
+  margin-top: 40px;
+  padding-left: 30px;
 }  
 .img-text4{
-  padding-left: 300px;
+  padding-left: 330px;
   padding-top: 200px;
   padding-right: 100px;
   position: absolute;
+  margin-top: 40px;
 }
 
 .footter div{
@@ -168,4 +181,29 @@ button{
   margin-right: 100px;
   margin-bottom: 50px ;
   text-align: center;
+}
+
+
+@media screen and (max-width: 1200px){
+  /* 화면의 크기가 1200px 이하일 때 */
+  /* 테블릿 사이즈에서 적용할 CSS 를 기술 */
+  .main-title {
+    font-size: 30px;
+  }
+
+  .product-container div {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  /* 화면의 크기가 1200px 이하일 때 */
+  /* 모바일에 적용할 CSS 를 기술 */
+  .main-title {
+    font-size: 20px;
+  }
+  .product-container div {
+    width: 100%;
+  }
 }

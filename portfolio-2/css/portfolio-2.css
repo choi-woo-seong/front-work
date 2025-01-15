@@ -1,0 +1,83 @@
+.container{
+ width: 800px;
+}
+.row1 h4{
+  width: 150px;
+}
+
+.row1 p{
+  width: 150px;
+  font-size: 10px;
+}
+
+.row1 a{
+  width: 150px;
+  font-size: 10px;
+}
+
+
+.row2 p{
+  text-align: left;
+  font-size: 10px;
+  margin-left: 200px;
+}
+
+
+.row3 p{
+  width: 100px;
+  font-size: 10px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.row4 h4{
+  width: 100px;
+}
+
+.row4 p{
+  width: 100px;
+}
+
+.row5 button{
+  width: 60px;
+  background-color: white;
+  border: 1px solid darkgrey;
+  border-radius: 20px;
+}
+
+
+.row5 h4{
+  width: 100px;
+  margin-left: 150px;
+}
+
+.row5 p{
+  width: 100px;
+  margin-left: 150px;
+}
+
+.row6 h4{
+  width: 100px;
+  margin-left: 200px;
+}
+
+.row6 p{
+  width: 100px;
+  margin-left: 200px;
+}
+
+.row7 h4{
+  font-size: 12px;
+}
+
+.row7 p{
+  font-size: 8px;
+}
+
+.row7 a{
+  font-size: 8px;
+}
+
+.row8{
+  width: 100px;
+}
